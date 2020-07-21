@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    #to-do-list{
+        margin: 20px;
+        background-color: aqua;
+    }
+    #a{
+padding-right: 20px;
+margin-right: 10px;
+    }
+    #b{
+        padding-right: 20px;
+    }
+    #list{
+        background-color: cadetblue;
+    }
+    .btn{
+        margin-right: 20px;
+        margin-left: 600px;
+        
+    }
+    .btn1{
+        margin-left: 20px;
+        position: fixed;
+    }
+</style>
+<body>
+    <div>
+<input placeholder="Enter Your Routine Works" type="text" id="to-do-list">
+<button id="a" onclick="addItems()">Add Items</button>
+<button id="b" onclick="dlAll()">Delete All</button>
+    </div>
+    <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
